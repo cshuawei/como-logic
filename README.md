@@ -4,11 +4,13 @@
 
 ### 本地调试
 
-```
-yarn serve
+```shell
+yarn serve or npm run serve
 ```
 
 ### 他们怎么来的
 
-- 范德萨发达
+- **findTreeIds**
+
+  在使用ElementPlus的级联组件时，设置为单选项时，得到数据是单个id，但是和后端交互往往需要将它的父级id一起传递给后端，这就需要树查找了。
 
