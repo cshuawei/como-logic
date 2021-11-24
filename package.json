@@ -1,0 +1,29 @@
+{
+  "name": "como-logic",
+  "version": "1.0.1",
+  "description": "Common logic methods accumulated in the development process.",
+  "module": "index.ts",
+  "files": [
+    "index.ts",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "serve": "yarn watch \"nodemon ./dist/index.test.js\"",
+    "watch": "tsc-watch --onSuccess",
+    "release": "node ./scripts/release.js"
+  },
+  "keywords": [
+    "javascript",
+    "typescript"
+  ],
+  "author": "como",
+  "license": "ISC",
+  "devDependencies": {
+    "inquirer": "^8.2.0",
+    "nodemon": "^2.0.15",
+    "shelljs": "^0.8.4",
+    "tsc-watch": "^4.5.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {}
+}
