@@ -2,7 +2,7 @@
 
 export default {
   /**
-   * 搜索目标ID的所有父级ID
+   * 搜索目标ID的所有父级ID--test
    * @targetId 目标ID
    * @items 要执行搜索的数组，数据格式示例：[{id: '111111', label: '父级', children: [{id: '222222', label: '子级1', children: [{ id: '333333', label: '子级2' }]}]}]
    * @options 可选参数，设置id和children的别名
